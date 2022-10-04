@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: cursive;
+}
+
+body{
+    background-color: #159;
+    padding: 0 10px;
+}
+
+.container{
+    max-width: 500px;
+    margin: 30px auto 0;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: #eee;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.points{
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto 0;
+    padding: 20px;
+    text-align: center;
+    gap: 10px;
+    color: #eee;
+}
+
+.points > div{
+    width: 50%;
+}
+
+.points p{
+    font-size: 3.5rem;
+    color: #ccc;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 20px;
+    color: #eee;
+    background-color: #333;
+    font-size: 3rem;
+    border-radius: 7px;
+    transition: .4s;
+    width: 150px;
+    height: 140px;
+}
+
+.btn h3{
+    font-size: 30px;
+}
+
+.oponentHand .btn{
+    cursor: auto;
+}
+
+.myHand {
+    display: flex;
+    gap: 10px;
+}
+
+.myHand .btn:hover{
+    opacity: .7;
+}
+
